@@ -1,8 +1,27 @@
+
+
 footer {
-    border-top: 2px solid var(--light);
+    border-top: 7px solid black;
     padding-top: .5em;
     & p {
         font-size: 80%;
-        text-align: right;
+        text-align: center;
     }
 }
+
+
+a:link { color: blue; }
+a:link, a:visited { color: red; }
+a:hover, a:focus { color: white; }
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-align: center;
+    border-bottom: 3px solid black;
+    padding-bottom: .75em; 
+    padding-top: .65em;
+}
+
+li { list-style-type: upper-roman;}
+   
