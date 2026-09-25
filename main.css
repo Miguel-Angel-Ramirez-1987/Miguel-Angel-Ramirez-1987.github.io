@@ -1,4 +1,15 @@
+/************************************************************
 
+Description: Targeted Application using the stylesheet.
+    One-of-a-kind Design. Made special for the Official Website
+    of the Ramirez Family Garden and Orchard Empire. 
+
+    Style of website made for Web Accessibility in Mind
+
+
+Author: Miguel Angel Ramirez
+
+*************************************************************/
 
 footer {
     border-top: 7px solid black;
@@ -21,7 +32,35 @@ header {
     border-bottom: 3px solid black;
     padding-bottom: .75em; 
     padding-top: .65em;
+    background-color: darkred;
 }
 
 li { list-style-type: upper-roman;}
    
+body {
+    border: 3px solid black 
+}
+
+main {
+    border: 3px solid black 
+
+    h1 {
+    animation: moveright 3s ease-in-out 1s infinite alternate; 
+    }
+
+}
+
+h1 {
+    animation: moveright 20s ease-in-out 1s infinite alternate;
+    text-shadow: -2px -2px 4px red; 
+}
+@keyframes moveright {
+    from {
+        margin-left: 20%;
+        Color: Black;
+    } 
+    to {
+        margin-left: 60%;
+        Color: Black; 
+    }
+}
