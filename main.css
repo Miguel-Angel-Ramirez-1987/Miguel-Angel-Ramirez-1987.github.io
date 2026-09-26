@@ -70,3 +70,12 @@ h1 {
 nav {
     background-color: lightgray
 }
+
+textarea {
+    width: 100%;
+    padding: .2em;
+    height: 5em;
+    font-family: inherit;
+    font-size: inherit;
+    background-color: aqua;
+}
